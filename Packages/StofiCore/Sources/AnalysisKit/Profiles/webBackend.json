@@ -1,0 +1,170 @@
+{
+  "id": "webBackend",
+  "symbol": "curlybraces",
+  "title": {
+    "en": "Web & Backend",
+    "de": "Web & Backend"
+  },
+  "summary": {
+    "en": "Node.js, Docker, Homebrew, Python, Java, Go, Rust, JetBrains IDEs and VS Code.",
+    "de": "Node.js, Docker, Homebrew, Python, Java, Go, Rust, JetBrains-IDEs und VS Code."
+  },
+  "builtIns": [
+    "inactiveNodeModules",
+    "npmCache",
+    "pnpmStore",
+    "yarnCache",
+    "homebrewCache",
+    "dockerData",
+    "pipCache"
+  ],
+  "locations": [
+    {
+      "id": "jetbrainsCaches",
+      "group": "developer",
+      "symbol": "chevron.left.forwardslash.chevron.right",
+      "title": {
+        "en": "JetBrains IDE Caches",
+        "de": "JetBrains-IDE-Caches"
+      },
+      "explanation": {
+        "en": "Indexes and caches of IntelliJ IDEA, WebStorm, PyCharm and others, one folder per IDE version. Old versions are often left behind after updates. The IDE re-indexes projects afterwards.",
+        "de": "Indizes und Caches von IntelliJ IDEA, WebStorm, PyCharm und anderen, ein Ordner pro IDE-Version. Nach Updates bleiben alte Versionen oft liegen. Die IDE indiziert Projekte danach neu."
+      },
+      "paths": [
+        "~/Library/Caches/JetBrains"
+      ],
+      "mode": "children",
+      "risk": "safe",
+      "regeneration": "automatic",
+      "action": {
+        "type": "trash"
+      }
+    },
+    {
+      "id": "vscodeCaches",
+      "group": "developer",
+      "symbol": "chevron.left.forwardslash.chevron.right",
+      "title": {
+        "en": "VS Code and Cursor Caches",
+        "de": "VS-Code- und Cursor-Caches"
+      },
+      "explanation": {
+        "en": "Cached data and downloaded extension packages of Visual Studio Code and Cursor. Quit the editor first; it recreates them.",
+        "de": "Zwischengespeicherte Daten und heruntergeladene Erweiterungspakete von Visual Studio Code und Cursor. Beende den Editor vorher; er erzeugt sie neu."
+      },
+      "paths": [
+        "~/Library/Application Support/Code/Cache",
+        "~/Library/Application Support/Code/CachedData",
+        "~/Library/Application Support/Code/CachedExtensionVSIXs",
+        "~/Library/Application Support/Code/Service Worker/CacheStorage",
+        "~/Library/Application Support/Cursor/Cache",
+        "~/Library/Application Support/Cursor/CachedData",
+        "~/Library/Application Support/Cursor/CachedExtensionVSIXs"
+      ],
+      "mode": "whole",
+      "risk": "safe",
+      "regeneration": "automatic",
+      "action": {
+        "type": "trash"
+      }
+    },
+    {
+      "id": "mavenRepository",
+      "group": "developer",
+      "symbol": "shippingbox",
+      "title": {
+        "en": "Maven Repository",
+        "de": "Maven-Repository"
+      },
+      "explanation": {
+        "en": "Downloaded Java libraries of Maven builds. They are downloaded again on the next build.",
+        "de": "Heruntergeladene Java-Bibliotheken von Maven-Builds. Sie werden beim nächsten Build erneut geladen."
+      },
+      "paths": [
+        "~/.m2/repository"
+      ],
+      "mode": "whole",
+      "risk": "safe",
+      "regeneration": "download",
+      "action": {
+        "type": "trash"
+      }
+    },
+    {
+      "id": "goModuleCache",
+      "group": "developer",
+      "symbol": "shippingbox",
+      "title": {
+        "en": "Go Module Cache",
+        "de": "Go-Modul-Cache"
+      },
+      "explanation": {
+        "en": "Downloaded Go modules. Go's own command removes them; they are downloaded again when needed.",
+        "de": "Heruntergeladene Go-Module. Gos eigener Befehl entfernt sie; sie werden bei Bedarf erneut geladen."
+      },
+      "paths": [
+        "~/go/pkg/mod"
+      ],
+      "mode": "whole",
+      "risk": "safe",
+      "regeneration": "download",
+      "action": {
+        "type": "command",
+        "executables": [
+          "/opt/homebrew/bin/go",
+          "/usr/local/go/bin/go",
+          "/usr/local/bin/go"
+        ],
+        "arguments": [
+          "clean",
+          "-modcache"
+        ]
+      }
+    },
+    {
+      "id": "cargoRegistry",
+      "group": "developer",
+      "symbol": "shippingbox",
+      "title": {
+        "en": "Rust Cargo Registry",
+        "de": "Rust-Cargo-Registry"
+      },
+      "explanation": {
+        "en": "Downloaded Rust crates. They are downloaded again on the next build.",
+        "de": "Heruntergeladene Rust-Crates. Sie werden beim nächsten Build erneut geladen."
+      },
+      "paths": [
+        "~/.cargo/registry"
+      ],
+      "mode": "whole",
+      "risk": "safe",
+      "regeneration": "download",
+      "action": {
+        "type": "trash"
+      }
+    },
+    {
+      "id": "bunCache",
+      "group": "developer",
+      "symbol": "shippingbox",
+      "title": {
+        "en": "Bun Cache",
+        "de": "Bun-Cache"
+      },
+      "explanation": {
+        "en": "Downloaded packages of the Bun JavaScript runtime.",
+        "de": "Heruntergeladene Pakete der JavaScript-Runtime Bun."
+      },
+      "paths": [
+        "~/.bun/install/cache"
+      ],
+      "mode": "whole",
+      "risk": "safe",
+      "regeneration": "download",
+      "action": {
+        "type": "trash"
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "aiData",
+  "symbol": "brain",
+  "title": {
+    "en": "AI & Data Science",
+    "de": "KI & Data Science"
+  },
+  "summary": {
+    "en": "Local AI models (Hugging Face, Ollama, LM Studio), Conda and PyTorch.",
+    "de": "Lokale KI-Modelle (Hugging Face, Ollama, LM Studio), Conda und PyTorch."
+  },
+  "builtIns": [
+    "pipCache"
+  ],
+  "locations": [
+    {
+      "id": "huggingFaceCache",
+      "group": "developer",
+      "symbol": "cpu",
+      "title": {
+        "en": "Hugging Face Models and Datasets",
+        "de": "Hugging-Face-Modelle und -Datensätze"
+      },
+      "explanation": {
+        "en": "Models and datasets downloaded by Hugging Face libraries, one folder per repository. Published models can be downloaded again; your own fine-tunes may not be recoverable.",
+        "de": "Von Hugging-Face-Bibliotheken geladene Modelle und Datensätze, ein Ordner pro Repository. Veröffentlichte Modelle lassen sich erneut laden; eigene Fine-Tunes eventuell nicht."
+      },
+      "paths": [
+        "~/.cache/huggingface/hub"
+      ],
+      "mode": "children",
+      "risk": "caution",
+      "regeneration": "download",
+      "action": {
+        "type": "trash"
+      }
+    },
+    {
+      "id": "ollamaModels",
+      "group": "developer",
+      "symbol": "cpu",
+      "title": {
+        "en": "Ollama Models",
+        "de": "Ollama-Modelle"
+      },
+      "explanation": {
+        "en": "Language models downloaded with Ollama. Models share data blocks, so remove them with “ollama rm <model>” instead of deleting files.",
+        "de": "Mit Ollama geladene Sprachmodelle. Modelle teilen Datenblöcke; entferne sie daher mit „ollama rm <Modell>“ statt Dateien zu löschen."
+      },
+      "paths": [
+        "~/.ollama/models"
+      ],
+      "mode": "whole",
+      "risk": "caution",
+      "regeneration": "download",
+      "action": {
+        "type": "info"
+      }
+    },
+    {
+      "id": "lmStudioModels",
+      "group": "developer",
+      "symbol": "cpu",
+      "title": {
+        "en": "LM Studio Models",
+        "de": "LM-Studio-Modelle"
+      },
+      "explanation": {
+        "en": "Language models downloaded with LM Studio, one folder per publisher.",
+        "de": "Mit LM Studio geladene Sprachmodelle, ein Ordner pro Anbieter."
+      },
+      "paths": [
+        "~/.lmstudio/models",
+        "~/.cache/lm-studio/models"
+      ],
+      "mode": "children",
+      "risk": "caution",
+      "regeneration": "download",
+      "action": {
+        "type": "trash"
+      }
+    },
+    {
+      "id": "condaPackages",
+      "group": "developer",
+      "symbol": "shippingbox",
+      "title": {
+        "en": "Conda Package Cache",
+        "de": "Conda-Paket-Cache"
+      },
+      "explanation": {
+        "en": "Downloaded Conda packages and tarballs. Conda's own clean-up command removes unused ones.",
+        "de": "Heruntergeladene Conda-Pakete und Archive. Condas eigener Aufräumbefehl entfernt ungenutzte."
+      },
+      "paths": [
+        "~/miniconda3/pkgs",
+        "~/anaconda3/pkgs",
+        "~/miniforge3/pkgs",
+        "~/opt/anaconda3/pkgs",
+        "~/opt/miniconda3/pkgs"
+      ],
+      "mode": "whole",
+      "risk": "safe",
+      "regeneration": "download",
+      "action": {
+        "type": "command",
+        "executables": [
+          "~/miniconda3/bin/conda",
+          "~/anaconda3/bin/conda",
+          "~/miniforge3/bin/conda",
+          "~/opt/anaconda3/bin/conda",
+          "~/opt/miniconda3/bin/conda",
+          "/opt/homebrew/bin/conda"
+        ],
+        "arguments": [
+          "clean",
+          "--all",
+          "--yes"
+        ]
+      }
+    },
+    {
+      "id": "torchHub",
+      "group": "developer",
+      "symbol": "cpu",
+      "title": {
+        "en": "PyTorch Hub Cache",
+        "de": "PyTorch-Hub-Cache"
+      },
+      "explanation": {
+        "en": "Model weights downloaded by PyTorch Hub and torchvision.",
+        "de": "Von PyTorch Hub und torchvision geladene Modellgewichte."
+      },
+      "paths": [
+        "~/.cache/torch"
+      ],
+      "mode": "whole",
+      "risk": "caution",
+      "regeneration": "download",
+      "action": {
+        "type": "trash"
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "musicAudio",
+  "symbol": "music.note",
+  "title": {
+    "en": "Music & Audio",
+    "de": "Musik & Audio"
+  },
+  "summary": {
+    "en": "Logic Pro, GarageBand, Apple Loops and large audio files.",
+    "de": "Logic Pro, GarageBand, Apple Loops und große Audiodateien."
+  },
+  "builtIns": [
+    "largeMedia"
+  ],
+  "locations": [
+    {
+      "id": "logicSoundLibrary",
+      "group": "creative",
+      "symbol": "pianokeys",
+      "title": {
+        "en": "Logic Pro Sound Library",
+        "de": "Logic-Pro-Soundbibliothek"
+      },
+      "explanation": {
+        "en": "Instruments and samples of Logic Pro (up to about 70 GB). Do not delete them while you use Logic. Logic can move most of the library to another disk: Logic Pro → Sound Library → Relocate Sound Library.",
+        "de": "Instrumente und Samples von Logic Pro (bis etwa 70 GB). Lösche sie nicht, solange du Logic nutzt. Logic kann den Großteil auf ein anderes Volume verschieben: Logic Pro → Soundbibliothek → Soundbibliothek bewegen."
+      },
+      "paths": [
+        "/Library/Application Support/Logic"
+      ],
+      "mode": "whole",
+      "risk": "expert",
+      "regeneration": "download",
+      "action": {
+        "type": "info"
+      }
+    },
+    {
+      "id": "appleLoops",
+      "group": "creative",
+      "symbol": "repeat",
+      "title": {
+        "en": "Apple Loops",
+        "de": "Apple Loops"
+      },
+      "explanation": {
+        "en": "Loops used by GarageBand and Logic Pro. They stay on the startup disk even when the Sound Library is moved.",
+        "de": "Loops für GarageBand und Logic Pro. Sie bleiben auf dem Startvolume, auch wenn die Soundbibliothek verschoben wird."
+      },
+      "paths": [
+        "/Library/Audio/Apple Loops"
+      ],
+      "mode": "whole",
+      "risk": "expert",
+      "regeneration": "download",
+      "action": {
+        "type": "info"
+      }
+    },
+    {
+      "id": "garageBandLibrary",
+      "group": "creative",
+      "symbol": "guitars",
+      "title": {
+        "en": "GarageBand Sound Library",
+        "de": "GarageBand-Soundbibliothek"
+      },
+      "explanation": {
+        "en": "Sounds and instruments of GarageBand. If you no longer use GarageBand, use System Settings → General → Storage → Music Creation to remove them.",
+        "de": "Klänge und Instrumente von GarageBand. Nutzt du GarageBand nicht mehr, entferne sie über Systemeinstellungen → Allgemein → Speicher → Musikerstellung."
+      },
+      "paths": [
+        "/Library/Application Support/GarageBand"
+      ],
+      "mode": "whole",
+      "risk": "caution",
+      "regeneration": "download",
+      "action": {
+        "type": "info"
+      }
+    }
+  ]
+}

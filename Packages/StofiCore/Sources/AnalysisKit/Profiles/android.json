@@ -1,0 +1,84 @@
+{
+  "id": "android",
+  "symbol": "smartphone",
+  "title": {
+    "en": "Android Development",
+    "de": "Android-Entwicklung"
+  },
+  "summary": {
+    "en": "Android Studio, emulators, SDK system images and Gradle.",
+    "de": "Android Studio, Emulatoren, SDK-System-Images und Gradle."
+  },
+  "builtIns": [
+    "androidVirtualDevices",
+    "gradleCache"
+  ],
+  "locations": [
+    {
+      "id": "androidSystemImages",
+      "group": "developer",
+      "symbol": "square.stack.3d.down.right",
+      "title": {
+        "en": "Android System Images",
+        "de": "Android-System-Images"
+      },
+      "explanation": {
+        "en": "Emulator system images, one folder per Android version. Remove unused versions in Android Studio's SDK Manager; they can be downloaded again.",
+        "de": "Emulator-System-Images, ein Ordner pro Android-Version. Entferne ungenutzte Versionen im SDK Manager von Android Studio; sie lassen sich erneut laden."
+      },
+      "paths": [
+        "~/Library/Android/sdk/system-images"
+      ],
+      "mode": "children",
+      "risk": "caution",
+      "regeneration": "download",
+      "action": {
+        "type": "info"
+      }
+    },
+    {
+      "id": "androidStudioCaches",
+      "group": "developer",
+      "symbol": "chevron.left.forwardslash.chevron.right",
+      "title": {
+        "en": "Android Studio Caches",
+        "de": "Android-Studio-Caches"
+      },
+      "explanation": {
+        "en": "Indexes and caches of Android Studio, one folder per version. Old versions are often left behind after updates.",
+        "de": "Indizes und Caches von Android Studio, ein Ordner pro Version. Nach Updates bleiben alte Versionen oft liegen."
+      },
+      "paths": [
+        "~/Library/Caches/Google"
+      ],
+      "mode": "children",
+      "risk": "safe",
+      "regeneration": "automatic",
+      "action": {
+        "type": "trash"
+      }
+    },
+    {
+      "id": "gradleWrapper",
+      "group": "developer",
+      "symbol": "shippingbox",
+      "title": {
+        "en": "Gradle Distributions",
+        "de": "Gradle-Distributionen"
+      },
+      "explanation": {
+        "en": "Gradle versions downloaded by the Gradle wrapper of your projects. Projects download their version again when needed.",
+        "de": "Gradle-Versionen, die der Gradle-Wrapper deiner Projekte geladen hat. Projekte laden ihre Version bei Bedarf erneut."
+      },
+      "paths": [
+        "~/.gradle/wrapper/dists"
+      ],
+      "mode": "children",
+      "risk": "safe",
+      "regeneration": "download",
+      "action": {
+        "type": "trash"
+      }
+    }
+  ]
+}

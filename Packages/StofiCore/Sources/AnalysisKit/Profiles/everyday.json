@@ -1,0 +1,117 @@
+{
+  "id": "everyday",
+  "symbol": "person.crop.circle",
+  "title": {
+    "en": "Everyday & Office",
+    "de": "Alltag & Büro"
+  },
+  "summary": {
+    "en": "Mail, messages, browsers, Teams, Slack, downloads and device backups.",
+    "de": "Mail, Nachrichten, Browser, Teams, Slack, Downloads und Gerätebackups."
+  },
+  "builtIns": [
+    "userCaches",
+    "userLogs",
+    "trash",
+    "downloads",
+    "mailDownloads",
+    "mailAttachments",
+    "iosBackups",
+    "localSnapshots"
+  ],
+  "locations": [
+    {
+      "id": "messagesAttachments",
+      "group": "personal",
+      "symbol": "message",
+      "title": {
+        "en": "Messages Attachments",
+        "de": "Anhänge in Nachrichten"
+      },
+      "explanation": {
+        "en": "Photos, videos and files received in Messages. Delete them in Messages or via System Settings → General → Storage → Messages; removing files here directly breaks the conversations.",
+        "de": "In Nachrichten empfangene Fotos, Videos und Dateien. Lösche sie in Nachrichten oder über Systemeinstellungen → Allgemein → Speicher → Nachrichten; sie hier direkt zu entfernen beschädigt die Konversationen."
+      },
+      "paths": [
+        "~/Library/Messages/Attachments"
+      ],
+      "mode": "whole",
+      "risk": "caution",
+      "regeneration": "none",
+      "action": {
+        "type": "info"
+      }
+    },
+    {
+      "id": "teamsCache",
+      "group": "system",
+      "symbol": "bubble.left.and.bubble.right",
+      "title": {
+        "en": "Microsoft Teams Cache",
+        "de": "Microsoft-Teams-Cache"
+      },
+      "explanation": {
+        "en": "Cached data of the new Microsoft Teams. Quit Teams before removing it; Teams downloads what it needs again. The location follows Microsoft community sources and may change with Teams updates.",
+        "de": "Zwischengespeicherte Daten des neuen Microsoft Teams. Beende Teams vor dem Entfernen; Teams lädt Benötigtes erneut. Der Ort folgt Quellen aus der Microsoft-Community und kann sich mit Teams-Updates ändern."
+      },
+      "paths": [
+        "~/Library/Containers/com.microsoft.teams2/Data/Library/Application Support/Microsoft/MSTeams/Cache"
+      ],
+      "mode": "children",
+      "risk": "safe",
+      "regeneration": "download",
+      "action": {
+        "type": "trash"
+      }
+    },
+    {
+      "id": "slackCache",
+      "group": "system",
+      "symbol": "number",
+      "title": {
+        "en": "Slack Cache",
+        "de": "Slack-Cache"
+      },
+      "explanation": {
+        "en": "Slack keeps images and files of busy workspaces here, often several GB. Slack recommends clearing it in the app: Help → Troubleshooting → Clear Cache and Restart.",
+        "de": "Slack speichert hier Bilder und Dateien aktiver Workspaces, oft mehrere GB. Slack empfiehlt, ihn in der App zu leeren: Hilfe → Fehlerbehebung → Cache leeren und neu starten."
+      },
+      "paths": [
+        "~/Library/Application Support/Slack/Cache",
+        "~/Library/Application Support/Slack/Service Worker/CacheStorage",
+        "~/Library/Containers/com.tinyspeck.slackmacgap/Data/Library/Application Support/Slack/Cache"
+      ],
+      "mode": "whole",
+      "risk": "safe",
+      "regeneration": "download",
+      "action": {
+        "type": "info"
+      }
+    },
+    {
+      "id": "browserCaches",
+      "group": "system",
+      "symbol": "globe",
+      "title": {
+        "en": "Browser Caches",
+        "de": "Browser-Caches"
+      },
+      "explanation": {
+        "en": "Cached web content of Chrome, Edge, Firefox and Brave. Browsers rebuild it while you browse; quit the browser first.",
+        "de": "Zwischengespeicherte Webinhalte von Chrome, Edge, Firefox und Brave. Browser bauen ihn beim Surfen neu auf; beende den Browser vorher."
+      },
+      "paths": [
+        "~/Library/Caches/Google/Chrome",
+        "~/Library/Caches/Microsoft Edge",
+        "~/Library/Caches/Firefox",
+        "~/Library/Caches/BraveSoftware"
+      ],
+      "mode": "whole",
+      "risk": "safe",
+      "regeneration": "automatic",
+      "action": {
+        "type": "trash"
+      }
+    }
+  ]
+}

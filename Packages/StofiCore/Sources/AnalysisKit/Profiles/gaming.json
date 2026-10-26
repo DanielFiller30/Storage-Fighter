@@ -1,0 +1,59 @@
+{
+  "id": "gaming",
+  "symbol": "gamecontroller",
+  "title": {
+    "en": "Gaming",
+    "de": "Gaming"
+  },
+  "summary": {
+    "en": "Steam games and their shader caches.",
+    "de": "Steam-Spiele und ihre Shader-Caches."
+  },
+  "builtIns": [],
+  "locations": [
+    {
+      "id": "steamGames",
+      "group": "gaming",
+      "symbol": "gamecontroller",
+      "title": {
+        "en": "Steam Games",
+        "de": "Steam-Spiele"
+      },
+      "explanation": {
+        "en": "Installed Steam games, one folder per game. Uninstall games in Steam (right-click → Manage → Uninstall) so Steam knows; they can be downloaded again.",
+        "de": "Installierte Steam-Spiele, ein Ordner pro Spiel. Deinstalliere Spiele in Steam (Rechtsklick → Verwalten → Deinstallieren), damit Steam Bescheid weiß; sie lassen sich erneut laden."
+      },
+      "paths": [
+        "~/Library/Application Support/Steam/steamapps/common"
+      ],
+      "mode": "children",
+      "risk": "caution",
+      "regeneration": "download",
+      "action": {
+        "type": "info"
+      }
+    },
+    {
+      "id": "steamShaderCache",
+      "group": "gaming",
+      "symbol": "sparkles.tv",
+      "title": {
+        "en": "Steam Shader Cache",
+        "de": "Steam-Shader-Cache"
+      },
+      "explanation": {
+        "en": "Precompiled shaders of Steam games. Steam recreates them; games may stutter briefly the first time.",
+        "de": "Vorkompilierte Shader von Steam-Spielen. Steam erzeugt sie neu; Spiele können beim ersten Start kurz ruckeln."
+      },
+      "paths": [
+        "~/Library/Application Support/Steam/steamapps/shadercache"
+      ],
+      "mode": "whole",
+      "risk": "safe",
+      "regeneration": "automatic",
+      "action": {
+        "type": "trash"
+      }
+    }
+  ]
+}

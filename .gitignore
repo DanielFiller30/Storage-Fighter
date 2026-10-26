@@ -1,0 +1,5 @@
+.DS_Store
+xcuserdata/
+DerivedData/
+Packages/StofiCore/.build/
+Packages/StofiCore/.swiftpm/

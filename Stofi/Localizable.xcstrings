@@ -1,0 +1,3546 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ available on %@. Open Stofi to see what takes up space.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ verfügbar auf %2$@. Öffne Stofi, um zu sehen, was Platz belegt."
+          }
+        }
+      }
+    },
+    "%@ folders could not be read. Full Disk Access would allow Stofi to measure them.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ Ordner konnten nicht gelesen werden. Mit vollständigem Festplattenzugriff könnte Stofi sie messen."
+          }
+        }
+      }
+    },
+    "%@ folders could not be read; their size is missing.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ Ordner konnten nicht gelesen werden; ihre Größe fehlt."
+          }
+        }
+      }
+    },
+    "%@ items": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ Einträge"
+          }
+        }
+      }
+    },
+    "%@ items · %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Einträge · %2$@"
+          }
+        }
+      }
+    },
+    "%@ items · %@ · prepared %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Einträge · %2$@ · vorbereitet %3$@"
+          }
+        }
+      }
+    },
+    "%@ items, %@. Nothing has been removed; open Stofi to review and confirm.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ Einträge, %2$@. Es wurde nichts entfernt; öffne Stofi, um zu prüfen und zu bestätigen."
+          }
+        }
+      }
+    },
+    "%@ moved to the Trash. The space is freed when the Trash is emptied.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ in den Papierkorb gelegt. Der Platz wird frei, sobald der Papierkorb geleert wird."
+          }
+        }
+      }
+    },
+    "%@ of %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ von %2$@"
+          }
+        }
+      }
+    },
+    "%@ of %@ items processed": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ von %2$@ Einträgen verarbeitet"
+          }
+        }
+      }
+    },
+    "%@ snapshots": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ Snapshots"
+          }
+        }
+      }
+    },
+    "%@ total": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ gesamt"
+          }
+        }
+      }
+    },
+    "%@ · %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@"
+          }
+        }
+      }
+    },
+    "%@ · %@ files": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · %2$@ Dateien"
+          }
+        }
+      }
+    },
+    "%@ · files smaller than 1 MB in this folder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · Dateien unter 1 MB in diesem Ordner"
+          }
+        }
+      }
+    },
+    "%lld days": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Tage"
+          }
+        }
+      }
+    },
+    "%lld min": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Min."
+          }
+        }
+      }
+    },
+    "A location from an activity profile.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ein Ort aus einem Tätigkeitsprofil."
+          }
+        }
+      }
+    },
+    "A main folder of your Library, needed by apps.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ein Hauptordner deiner Library, den Apps benötigen."
+          }
+        }
+      }
+    },
+    "A main folder of your home folder.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ein Hauptordner deines Benutzerordners."
+          }
+        }
+      }
+    },
+    "A whole disk or the disks folder.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ein ganzes Volume oder der Volumes-Ordner."
+          }
+        }
+      }
+    },
+    "About Stofi": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Über Stofi"
+          }
+        }
+      }
+    },
+    "Activities for the quickscan": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tätigkeiten für den Quickscan"
+          }
+        }
+      }
+    },
+    "Add recommendations, items from the list or areas of the storage map. Nothing is removed until you confirm.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Füge Empfehlungen, Einträge aus der Liste oder Bereiche der Speicherkarte hinzu. Es wird nichts entfernt, bevor du bestätigst."
+          }
+        }
+      }
+    },
+    "Add to Selection": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zur Auswahl hinzufügen"
+          }
+        }
+      }
+    },
+    "Add to the selection; nothing is removed yet": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zur Auswahl hinzufügen; noch wird nichts entfernt"
+          }
+        }
+      }
+    },
+    "Allow Full Disk Access…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vollständigen Festplattenzugriff erlauben …"
+          }
+        }
+      }
+    },
+    "Almost full": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fast voll"
+          }
+        }
+      }
+    },
+    "Already in the selection": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bereits in der Auswahl"
+          }
+        }
+      }
+    },
+    "An app's container itself.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Container einer App selbst."
+          }
+        }
+      }
+    },
+    "Analyse Again": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erneut analysieren"
+          }
+        }
+      }
+    },
+    "Analyse Everything": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles analysieren"
+          }
+        }
+      }
+    },
+    "Analyse the selected disk or folder (read-only)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausgewähltes Volume oder ausgewählten Ordner analysieren (nur lesend)"
+          }
+        }
+      }
+    },
+    "Analysing…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analysiere …"
+          }
+        }
+      }
+    },
+    "Analysis": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyse"
+          }
+        }
+      }
+    },
+    "Android Emulators (AVD)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Android-Emulatoren (AVD)"
+          }
+        }
+      }
+    },
+    "Android emulator images including their state (installed apps, data). They can be created again in Android Studio.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Android-Emulator-Images samt Zustand (installierte Apps, Daten). Sie lassen sich in Android Studio neu anlegen."
+          }
+        }
+      }
+    },
+    "Any size": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beliebige Größe"
+          }
+        }
+      }
+    },
+    "App Caches": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App-Caches"
+          }
+        }
+      }
+    },
+    "App Data": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App-Daten"
+          }
+        }
+      }
+    },
+    "App builds created with Product → Archive. They are needed to symbolicate crash reports or to submit that exact build again.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mit Product → Archive erstellte App-Builds. Sie werden benötigt, um Absturzberichte zu symbolisieren oder genau diesen Build erneut einzureichen."
+          }
+        }
+      }
+    },
+    "Applications": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Programme"
+          }
+        }
+      }
+    },
+    "Apps are not removed by Stofi.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stofi entfernt keine Apps."
+          }
+        }
+      }
+    },
+    "Apps keep temporary copies here to start and load faster. Removing them is safe; apps rebuild what they need, which can make them slower the first time. Quit an app before removing its cache.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apps legen hier temporäre Kopien ab, um schneller zu starten und zu laden. Das Entfernen ist unkritisch; Apps erzeugen Benötigtes neu und sind dadurch beim ersten Mal etwas langsamer. Beende eine App, bevor du ihren Cache entfernst."
+          }
+        }
+      }
+    },
+    "Apps, documents and system data": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apps, Dokumente und Systemdaten"
+          }
+        }
+      }
+    },
+    "As of %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stand: %@"
+          }
+        }
+      }
+    },
+    "At the chosen time, or when space gets low, Stofi measures the selected categories and prepares a selection. Nothing is removed automatically: you review it and confirm in the usual dialog. Jobs run while Stofi is open; missed times are caught up once.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zur gewählten Zeit oder bei knappem Speicher misst Stofi die gewählten Kategorien und bereitet eine Auswahl vor. Es wird nichts automatisch entfernt: Du prüfst und bestätigst im gewohnten Dialog. Jobs laufen, solange Stofi geöffnet ist; verpasste Termine werden einmal nachgeholt."
+          }
+        }
+      }
+    },
+    "Attachments in Mail": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anhänge in Mail"
+          }
+        }
+      }
+    },
+    "Attachments stored inside the Mail database. Shown for information only: removing files there can damage Mail. Delete large messages in Mail instead.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anhänge in der Mail-Datenbank. Nur zur Information: Dateien dort zu entfernen kann Mail beschädigen. Lösche große Nachrichten stattdessen in Mail."
+          }
+        }
+      }
+    },
+    "Available": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verfügbar"
+          }
+        }
+      }
+    },
+    "Belongs to another user.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gehört einem anderen Benutzer."
+          }
+        }
+      }
+    },
+    "Build products and indexes of Xcode projects. Xcode recreates them on the next build, which then takes longer.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Build-Produkte und Indizes von Xcode-Projekten. Xcode erzeugt sie beim nächsten Build neu, der dann länger dauert."
+          }
+        }
+      }
+    },
+    "Bytes": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bytes"
+          }
+        }
+      }
+    },
+    "Caches & Logs": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Caches & Logs"
+          }
+        }
+      }
+    },
+    "Can be downloaded again": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kann erneut geladen werden"
+          }
+        }
+      }
+    },
+    "Can be rebuilt": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lässt sich neu erstellen"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
+          }
+        }
+      }
+    },
+    "Cannot be restored": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht wiederherstellbar"
+          }
+        }
+      }
+    },
+    "Capacity unavailable": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kapazität nicht verfügbar"
+          }
+        }
+      }
+    },
+    "Categories": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kategorien"
+          }
+        }
+      }
+    },
+    "Category": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kategorie"
+          }
+        }
+      }
+    },
+    "Change Activities…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tätigkeiten ändern …"
+          }
+        }
+      }
+    },
+    "Changed after confirmation and was therefore skipped.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wurde nach der Bestätigung verändert und deshalb übersprungen."
+          }
+        }
+      }
+    },
+    "Check the typical space hogs of your activities within seconds": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Typische Speicherfresser deiner Tätigkeiten in Sekunden prüfen"
+          }
+        }
+      }
+    },
+    "Choose Folder…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordner wählen …"
+          }
+        }
+      }
+    },
+    "Choose a folder to analyse. Stofi only reads it.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wähle einen Ordner zur Analyse. Stofi liest ihn nur."
+          }
+        }
+      }
+    },
+    "Choose one or more activities. Stofi then offers a quickscan that checks exactly the places that typically fill up for them, within seconds. Nothing is removed.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wähle eine oder mehrere Tätigkeiten. Stofi bietet dann einen Quickscan an, der genau die Orte prüft, die dabei typischerweise volllaufen, in Sekunden. Es wird nichts entfernt."
+          }
+        }
+      }
+    },
+    "Choose what to scan": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auswählen, was analysiert wird"
+          }
+        }
+      }
+    },
+    "Choose your activities for a quickscan": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tätigkeiten für einen Quickscan wählen"
+          }
+        }
+      }
+    },
+    "Chosen manually": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manuell gewählt"
+          }
+        }
+      }
+    },
+    "Clean Up": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aufräumen"
+          }
+        }
+      }
+    },
+    "Clear Selection": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auswahl leeren"
+          }
+        }
+      }
+    },
+    "Close": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schließen"
+          }
+        }
+      }
+    },
+    "CocoaPods Cache": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CocoaPods-Cache"
+          }
+        }
+      }
+    },
+    "Collecting data…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daten werden gesammelt …"
+          }
+        }
+      }
+    },
+    "Command failed (%d)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Befehl fehlgeschlagen (%d)"
+          }
+        }
+      }
+    },
+    "Command finished": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Befehl abgeschlossen"
+          }
+        }
+      }
+    },
+    "Commands run exactly as shown, without a shell. Their output is shown afterwards.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Befehle laufen genau wie angezeigt, ohne Shell. Ihre Ausgabe wird danach angezeigt."
+          }
+        }
+      }
+    },
+    "Comparing file contents…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vergleiche Dateiinhalte …"
+          }
+        }
+      }
+    },
+    "Copies of attachments you opened from Mail. The originals stay in the messages.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopien von Anhängen, die du aus Mail geöffnet hast. Die Originale bleiben in den Nachrichten."
+          }
+        }
+      }
+    },
+    "Critical": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kritisch"
+          }
+        }
+      }
+    },
+    "Critical below %lld %% available": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kritisch unter %lld %% verfügbar"
+          }
+        }
+      }
+    },
+    "Current folder: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktueller Ordner: %@"
+          }
+        }
+      }
+    },
+    "Daily": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Täglich"
+          }
+        }
+      }
+    },
+    "Daily at %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Täglich um %@"
+          }
+        }
+      }
+    },
+    "Day %lld of the month": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld. Tag des Monats"
+          }
+        }
+      }
+    },
+    "Debug symbols Xcode copied from connected devices, one folder per OS version. Xcode copies them again when that device is connected.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Debug-Symbole, die Xcode von angeschlossenen Geräten kopiert hat, ein Ordner pro Systemversion. Xcode kopiert sie erneut, wenn das Gerät angeschlossen wird."
+          }
+        }
+      }
+    },
+    "Delete Job": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Job löschen"
+          }
+        }
+      }
+    },
+    "Delete Permanently": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Endgültig löschen"
+          }
+        }
+      }
+    },
+    "Delete permanently?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Endgültig löschen?"
+          }
+        }
+      }
+    },
+    "Delete this job?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diesen Job löschen?"
+          }
+        }
+      }
+    },
+    "Deleted": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gelöscht"
+          }
+        }
+      }
+    },
+    "Deleted permanently": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Endgültig gelöscht"
+          }
+        }
+      }
+    },
+    "Delete…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Löschen …"
+          }
+        }
+      }
+    },
+    "Determined with: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ermittelt mit: %@"
+          }
+        }
+      }
+    },
+    "Developer": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entwickler"
+          }
+        }
+      }
+    },
+    "Diagnostic logs written by apps. They are only needed to investigate problems.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diagnoseprotokolle von Apps. Sie werden nur zur Fehlersuche benötigt."
+          }
+        }
+      }
+    },
+    "Disk": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volume"
+          }
+        }
+      }
+    },
+    "Dismiss": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verwerfen"
+          }
+        }
+      }
+    },
+    "Docker Data": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Docker-Daten"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fertig"
+          }
+        }
+      }
+    },
+    "Downloaded Homebrew packages and old versions. Homebrew's own clean-up command removes them.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Heruntergeladene Homebrew-Pakete und alte Versionen. Homebrews eigener Aufräumbefehl entfernt sie."
+          }
+        }
+      }
+    },
+    "Downloaded packages kept by a package manager to avoid downloading them again. They are downloaded again when a project needs them.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Heruntergeladene Pakete, die ein Paketmanager aufbewahrt, um sie nicht erneut zu laden. Sie werden erneut geladen, wenn ein Projekt sie braucht."
+          }
+        }
+      }
+    },
+    "Downloads larger than %lld MB": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloads größer als %lld MB"
+          }
+        }
+      }
+    },
+    "Downloads older than %lld days": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloads älter als %lld Tage"
+          }
+        }
+      }
+    },
+    "Duplicate Files": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Doppelte Dateien"
+          }
+        }
+      }
+    },
+    "Duplicates": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duplikate"
+          }
+        }
+      }
+    },
+    "Edit…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bearbeiten …"
+          }
+        }
+      }
+    },
+    "Enable %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ aktivieren"
+          }
+        }
+      }
+    },
+    "Enabled": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktiv"
+          }
+        }
+      }
+    },
+    "Enough space": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Genug Platz"
+          }
+        }
+      }
+    },
+    "Every confirmed clean-up is recorded here: what was removed, how, and how much space it freed.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jede bestätigte Bereinigung wird hier festgehalten: was entfernt wurde, wie und wie viel Platz frei wurde."
+          }
+        }
+      }
+    },
+    "Experts only": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nur für Experten"
+          }
+        }
+      }
+    },
+    "Failed: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fehlgeschlagen: %@"
+          }
+        }
+      }
+    },
+    "Files": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dateien"
+          }
+        }
+      }
+    },
+    "Files in your Downloads folder that are large or have not been changed for over a year, such as installers and archives. Check whether you still need them; they cannot be restored once deleted.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dateien im Ordner „Downloads“, die groß sind oder seit über einem Jahr nicht geändert wurden, etwa Installer und Archive. Prüfe, ob du sie noch brauchst; gelöscht lassen sie sich nicht wiederherstellen."
+          }
+        }
+      }
+    },
+    "Files with identical content. One copy of each group is always kept. Copies made with the Finder are often APFS clones that share their storage; removing them frees little or nothing, which the sizes reflect.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dateien mit identischem Inhalt. Von jeder Gruppe bleibt immer eine Kopie. Im Finder erstellte Kopien sind oft APFS-Clones, die sich den Speicher teilen; sie zu entfernen gibt wenig oder nichts frei, was die Größen berücksichtigen."
+          }
+        }
+      }
+    },
+    "Files you have already moved to the Trash. They still use space until the Trash is emptied. Emptying it is permanent.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dateien, die du bereits in den Papierkorb gelegt hast. Sie belegen Platz, bis der Papierkorb geleert wird. Das Leeren ist endgültig."
+          }
+        }
+      }
+    },
+    "Filter": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter"
+          }
+        }
+      }
+    },
+    "Finds files with identical content among your own files (1 MB or larger). It reads the files, which can take a while for large folders. iCloud placeholders are skipped so nothing is downloaded.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Findet Dateien mit identischem Inhalt unter deinen eigenen Dateien (ab 1 MB). Dafür werden die Dateien gelesen, was bei großen Ordnern dauern kann. iCloud-Platzhalter werden übersprungen, damit nichts heruntergeladen wird."
+          }
+        }
+      }
+    },
+    "Finished in %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fertig nach %@"
+          }
+        }
+      }
+    },
+    "Folder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordner"
+          }
+        }
+      }
+    },
+    "Folders": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ordner"
+          }
+        }
+      }
+    },
+    "For information only": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nur zur Information"
+          }
+        }
+      }
+    },
+    "Free": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frei"
+          }
+        }
+      }
+    },
+    "Full Disk Access": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vollständiger Festplattenzugriff"
+          }
+        }
+      }
+    },
+    "Full Disk Access is missing": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vollständiger Festplattenzugriff fehlt"
+          }
+        }
+      }
+    },
+    "Games": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spiele"
+          }
+        }
+      }
+    },
+    "General": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allgemein"
+          }
+        }
+      }
+    },
+    "Gradle Cache": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gradle-Cache"
+          }
+        }
+      }
+    },
+    "Granted": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erteilt"
+          }
+        }
+      }
+    },
+    "Hard links counted once": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hardlinks einmal gezählt"
+          }
+        }
+      }
+    },
+    "Homebrew Cache": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Homebrew-Cache"
+          }
+        }
+      }
+    },
+    "I understand that this cannot be undone.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ich verstehe, dass das nicht rückgängig gemacht werden kann."
+          }
+        }
+      }
+    },
+    "In Selection": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In der Auswahl"
+          }
+        }
+      }
+    },
+    "In the Trash": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Im Papierkorb"
+          }
+        }
+      }
+    },
+    "In use by %@. Quit it and try again.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wird von %@ verwendet. Beende es und versuche es erneut."
+          }
+        }
+      }
+    },
+    "Installed JavaScript dependencies of projects that have not changed for a while. Running npm install (or pnpm/yarn) in the project restores them.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Installierte JavaScript-Abhängigkeiten von Projekten, die länger nicht geändert wurden. npm install (oder pnpm/yarn) im Projekt stellt sie wieder her."
+          }
+        }
+      }
+    },
+    "Jobs": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jobs"
+          }
+        }
+      }
+    },
+    "Large Media Files": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Große Mediendateien"
+          }
+        }
+      }
+    },
+    "Large or Old Downloads": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Große oder alte Downloads"
+          }
+        }
+      }
+    },
+    "Large video, audio and image files among your own files. Your photo library and iCloud Drive are not included.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Große Video-, Audio- und Bilddateien unter deinen eigenen Dateien. Fotos-Mediathek und iCloud Drive sind ausgenommen."
+          }
+        }
+      }
+    },
+    "Larger than 1 GB": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Größer als 1 GB"
+          }
+        }
+      }
+    },
+    "Larger than 100 MB": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Größer als 100 MB"
+          }
+        }
+      }
+    },
+    "Largest Folders": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Größte Ordner"
+          }
+        }
+      }
+    },
+    "Largest Items": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Größte Elemente"
+          }
+        }
+      }
+    },
+    "Last Opened": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zuletzt geöffnet"
+          }
+        }
+      }
+    },
+    "Last modified more than a year ago": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zuletzt vor mehr als einem Jahr geändert"
+          }
+        }
+      }
+    },
+    "Last prepared: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zuletzt vorbereitet: %@"
+          }
+        }
+      }
+    },
+    "Left out": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausgelassen"
+          }
+        }
+      }
+    },
+    "Live while scanning. Categories appear when a scan of the startup disk has finished.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Live während der Analyse. Kategorien erscheinen, sobald eine Analyse des Startvolumes fertig ist."
+          }
+        }
+      }
+    },
+    "Loading": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wird geladen"
+          }
+        }
+      }
+    },
+    "Local Time Machine Snapshots": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lokale Time-Machine-Snapshots"
+          }
+        }
+      }
+    },
+    "Local backups of iPhones and iPads made with the Finder. A deleted backup cannot be restored; make sure you have a newer backup (e.g. in iCloud) first.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lokale Backups von iPhones und iPads, erstellt mit dem Finder. Ein gelöschtes Backup lässt sich nicht wiederherstellen; stelle vorher sicher, dass ein neueres Backup existiert (z. B. in iCloud)."
+          }
+        }
+      }
+    },
+    "Log": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protokoll"
+          }
+        }
+      }
+    },
+    "Logs": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protokolle"
+          }
+        }
+      }
+    },
+    "Low": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Knapp"
+          }
+        }
+      }
+    },
+    "Low below %lld %% available": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Knapp unter %lld %% verfügbar"
+          }
+        }
+      }
+    },
+    "Mail's database; manage it in Mail.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Datenbank von Mail; verwalte sie in Mail."
+          }
+        }
+      }
+    },
+    "Measured change of free space: %@%@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gemessene Änderung des freien Platzes: %1$@%2$@"
+          }
+        }
+      }
+    },
+    "Media files from %lld MB": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mediendateien ab %lld MB"
+          }
+        }
+      }
+    },
+    "Menu Bar": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menüleiste"
+          }
+        }
+      }
+    },
+    "Messages data; manage it in Messages.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daten von Nachrichten; verwalte sie in Nachrichten."
+          }
+        }
+      }
+    },
+    "Method": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Methode"
+          }
+        }
+      }
+    },
+    "Modified": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geändert"
+          }
+        }
+      }
+    },
+    "Monthly": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monatlich"
+          }
+        }
+      }
+    },
+    "Monthly on day %lld at %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monatlich am %lld. um %@"
+          }
+        }
+      }
+    },
+    "More": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mehr"
+          }
+        }
+      }
+    },
+    "Move to Trash": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In den Papierkorb legen"
+          }
+        }
+      }
+    },
+    "Move to the Trash?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In den Papierkorb legen?"
+          }
+        }
+      }
+    },
+    "Moved to the Trash": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In den Papierkorb gelegt"
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name"
+          }
+        }
+      }
+    },
+    "Name or path": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name oder Pfad"
+          }
+        }
+      }
+    },
+    "Needed to measure folders macOS protects, such as Mail, Messages and other apps' data. Stofi only reads them.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nötig, um Ordner zu messen, die macOS schützt, etwa Mail, Nachrichten und Daten anderer Apps. Stofi liest sie nur."
+          }
+        }
+      }
+    },
+    "Needs Full Disk Access to be measured.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zum Messen ist vollständiger Festplattenzugriff nötig."
+          }
+        }
+      }
+    },
+    "Needs Full Disk Access.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Benötigt vollständigen Festplattenzugriff."
+          }
+        }
+      }
+    },
+    "New Job…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neuer Job …"
+          }
+        }
+      }
+    },
+    "Next: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nächster: %@"
+          }
+        }
+      }
+    },
+    "No": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nein"
+          }
+        }
+      }
+    },
+    "No Clean-ups Yet": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noch keine Bereinigungen"
+          }
+        }
+      }
+    },
+    "No duplicates of 1 MB or more found among your own files.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Duplikate ab 1 MB unter deinen eigenen Dateien gefunden."
+          }
+        }
+      }
+    },
+    "No longer exists.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Existiert nicht mehr."
+          }
+        }
+      }
+    },
+    "No scan of the startup disk yet. Categories appear after the first one.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noch keine Analyse des Startvolumes. Kategorien erscheinen nach der ersten."
+          }
+        }
+      }
+    },
+    "No telemetry and no network access. All results stay on this Mac.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Telemetrie und keine Netzwerkzugriffe. Alle Ergebnisse bleiben auf diesem Mac."
+          }
+        }
+      }
+    },
+    "Not captured": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht erfasst"
+          }
+        }
+      }
+    },
+    "Not granted": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht erteilt"
+          }
+        }
+      }
+    },
+    "Nothing Selected": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nichts ausgewählt"
+          }
+        }
+      }
+    },
+    "Nothing is removed automatically. Suggestions are collected and confirmed in a later step. Last analysed %@.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nichts wird automatisch entfernt. Vorschläge werden in einem späteren Schritt gesammelt und bestätigt. Zuletzt analysiert %@."
+          }
+        }
+      }
+    },
+    "Nothing is removed without your confirmation.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohne deine Bestätigung wird nichts entfernt."
+          }
+        }
+      }
+    },
+    "Nothing is removed without your confirmation; the default is the Trash.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohne deine Bestätigung wird nichts entfernt; Standard ist der Papierkorb."
+          }
+        }
+      }
+    },
+    "Nothing to add": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nichts hinzuzufügen"
+          }
+        }
+      }
+    },
+    "Notifications only inform and open Stofi; they never remove anything. They are checked together with the menu bar status.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mitteilungen informieren nur und öffnen Stofi; sie entfernen nie etwas. Sie werden zusammen mit dem Menüleistenstatus geprüft."
+          }
+        }
+      }
+    },
+    "Notify when space gets low": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mitteilung bei knappem Speicher"
+          }
+        }
+      }
+    },
+    "Older than 1 year": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Älter als 1 Jahr"
+          }
+        }
+      }
+    },
+    "On a schedule": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nach Zeitplan"
+          }
+        }
+      }
+    },
+    "Only items older than": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nur Einträge älter als"
+          }
+        }
+      }
+    },
+    "Only the schedule is deleted, no files.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gelöscht wird nur der Zeitplan, keine Dateien."
+          }
+        }
+      }
+    },
+    "Open Stofi": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stofi öffnen"
+          }
+        }
+      }
+    },
+    "Open System Settings": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systemeinstellungen öffnen"
+          }
+        }
+      }
+    },
+    "Open at login": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beim Anmelden öffnen"
+          }
+        }
+      }
+    },
+    "Opened Mail Attachments": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geöffnete Mail-Anhänge"
+          }
+        }
+      }
+    },
+    "Other": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sonstiges"
+          }
+        }
+      }
+    },
+    "Other apps and Time Machine snapshots can affect this measurement.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Andere Apps und Time-Machine-Snapshots können diese Messung beeinflussen."
+          }
+        }
+      }
+    },
+    "Other files": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weitere Dateien"
+          }
+        }
+      }
+    },
+    "Output": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ausgabe"
+          }
+        }
+      }
+    },
+    "Overview": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Übersicht"
+          }
+        }
+      }
+    },
+    "Part of a Photos library.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teil einer Fotos-Mediathek."
+          }
+        }
+      }
+    },
+    "Part of macOS or shared system data.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Teil von macOS oder gemeinsamer Systemdaten."
+          }
+        }
+      }
+    },
+    "Path": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pfad"
+          }
+        }
+      }
+    },
+    "Pause": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pausieren"
+          }
+        }
+      }
+    },
+    "Pause Scan": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan pausieren"
+          }
+        }
+      }
+    },
+    "Pause the scan": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan pausieren"
+          }
+        }
+      }
+    },
+    "Paused": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pausiert"
+          }
+        }
+      }
+    },
+    "Permanent deletion cannot be undone": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Endgültiges Löschen lässt sich nicht rückgängig machen"
+          }
+        }
+      }
+    },
+    "Permanent deletion is only available when every item can be recreated (caches, build data)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Endgültiges Löschen ist nur verfügbar, wenn sich jeder Eintrag neu erzeugen lässt (Caches, Build-Daten)"
+          }
+        }
+      }
+    },
+    "Personal Files": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Persönliche Dateien"
+          }
+        }
+      }
+    },
+    "Personal or not recreatable data can only be moved to the Trash.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Persönliche oder nicht wiederherstellbare Daten können nur in den Papierkorb gelegt werden."
+          }
+        }
+      }
+    },
+    "Prepare Now": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jetzt vorbereiten"
+          }
+        }
+      }
+    },
+    "Prepared because space is low": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorbereitet wegen knappem Speicher"
+          }
+        }
+      }
+    },
+    "Privacy": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datenschutz"
+          }
+        }
+      }
+    },
+    "Privacy & Security → Full Disk Access. Enable Stofi there, then return to the app.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datenschutz & Sicherheit → Vollständiger Festplattenzugriff. Aktiviere dort Stofi und kehre dann zur App zurück."
+          }
+        }
+      }
+    },
+    "Projects inactive after %lld days": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Projekte inaktiv nach %lld Tagen"
+          }
+        }
+      }
+    },
+    "Quickscan": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quickscan"
+          }
+        }
+      }
+    },
+    "Quickscan: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quickscan: %@"
+          }
+        }
+      }
+    },
+    "Quit apps whose data you remove. Stofi checks open files of your own apps, but cannot see everything.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beende Apps, deren Daten du entfernst. Stofi prüft geöffnete Dateien deiner eigenen Apps, kann aber nicht alles sehen."
+          }
+        }
+      }
+    },
+    "Ready for review": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bereit zur Prüfung"
+          }
+        }
+      }
+    },
+    "Recommendations": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empfehlungen"
+          }
+        }
+      }
+    },
+    "Recreated automatically": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wird automatisch neu erzeugt"
+          }
+        }
+      }
+    },
+    "Removable (estimate)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entfernbar (Schätzung)"
+          }
+        }
+      }
+    },
+    "Remove from the selection": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aus der Auswahl entfernen"
+          }
+        }
+      }
+    },
+    "Removes all items in the Trash permanently": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entfernt alle Objekte im Papierkorb endgültig"
+          }
+        }
+      }
+    },
+    "Remove…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entfernen …"
+          }
+        }
+      }
+    },
+    "Removing… %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entferne … %@"
+          }
+        }
+      }
+    },
+    "Repeat": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wiederholen"
+          }
+        }
+      }
+    },
+    "Restore Defaults": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standardwerte"
+          }
+        }
+      }
+    },
+    "Resume": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fortsetzen"
+          }
+        }
+      }
+    },
+    "Resume Scan": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan fortsetzen"
+          }
+        }
+      }
+    },
+    "Resume the scan": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan fortsetzen"
+          }
+        }
+      }
+    },
+    "Review and Confirm…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prüfen und bestätigen …"
+          }
+        }
+      }
+    },
+    "Safe": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unkritisch"
+          }
+        }
+      }
+    },
+    "Save": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speichern"
+          }
+        }
+      }
+    },
+    "Save and Start Quickscan": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speichern und Quickscan starten"
+          }
+        }
+      }
+    },
+    "Scan": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analysieren"
+          }
+        }
+      }
+    },
+    "Scan %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ analysieren"
+          }
+        }
+      }
+    },
+    "Scan Again": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erneut analysieren"
+          }
+        }
+      }
+    },
+    "Scan first to search for duplicates.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analysiere zuerst, um nach Duplikaten zu suchen."
+          }
+        }
+      }
+    },
+    "Scanning…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analysiere …"
+          }
+        }
+      }
+    },
+    "Scheduled": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geplant"
+          }
+        }
+      }
+    },
+    "Scheduled Clean-ups": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geplante Bereinigungen"
+          }
+        }
+      }
+    },
+    "Scheduled clean-up “%@” is ready": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geplante Bereinigung „%@“ ist bereit"
+          }
+        }
+      }
+    },
+    "Search Again": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erneut suchen"
+          }
+        }
+      }
+    },
+    "Search for Duplicates": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duplikate suchen"
+          }
+        }
+      }
+    },
+    "Selection": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auswahl"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen"
+          }
+        }
+      }
+    },
+    "Settings (⌘,)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen (⌘,)"
+          }
+        }
+      }
+    },
+    "Show": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anzeigen"
+          }
+        }
+      }
+    },
+    "Show available space next to the symbol": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verfügbaren Platz neben dem Symbol anzeigen"
+          }
+        }
+      }
+    },
+    "Show in Finder": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Im Finder zeigen"
+          }
+        }
+      }
+    },
+    "Show in Trash": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Im Papierkorb zeigen"
+          }
+        }
+      }
+    },
+    "Show in menu bar": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In der Menüleiste anzeigen"
+          }
+        }
+      }
+    },
+    "Shows where your disk space goes and helps you free it safely. No telemetry, no network access.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zeigt, wo dein Speicherplatz bleibt, und hilft, ihn sicher freizugeben. Keine Telemetrie, keine Netzwerkzugriffe."
+          }
+        }
+      }
+    },
+    "Simulator Runtimes": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simulator-Runtimes"
+          }
+        }
+      }
+    },
+    "Simulator devices whose OS version is no longer installed. They cannot be started anymore. Removal uses Xcode's own command.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Simulator-Geräte, deren Systemversion nicht mehr installiert ist. Sie lassen sich nicht mehr starten. Entfernt wird mit Xcodes eigenem Befehl."
+          }
+        }
+      }
+    },
+    "Size": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Größe"
+          }
+        }
+      }
+    },
+    "Sizes are estimates from the analysis.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Größen sind Schätzungen aus der Analyse."
+          }
+        }
+      }
+    },
+    "Skip": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Überspringen"
+          }
+        }
+      }
+    },
+    "Skipped: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Übersprungen: %@"
+          }
+        }
+      }
+    },
+    "Snapshots": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Snapshots"
+          }
+        }
+      }
+    },
+    "Space is getting low": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speicher wird knapp"
+          }
+        }
+      }
+    },
+    "Start Scan": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyse starten"
+          }
+        }
+      }
+    },
+    "Start a scan to list the largest files and folders.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starte eine Analyse, um die größten Dateien und Ordner aufzulisten."
+          }
+        }
+      }
+    },
+    "Start a scan to see where your space goes.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starte eine Analyse, um zu sehen, wo dein Speicherplatz bleibt."
+          }
+        }
+      }
+    },
+    "Start a scan to see your disk as a map: the larger the area, the more space.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starte eine Analyse, um dein Volume als Karte zu sehen: je größer die Fläche, desto mehr Platz."
+          }
+        }
+      }
+    },
+    "Startup Disk": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Startvolume"
+          }
+        }
+      }
+    },
+    "Startup disk almost full": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Startvolume fast voll"
+          }
+        }
+      }
+    },
+    "Startup disk space is getting low": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speicher auf dem Startvolume wird knapp"
+          }
+        }
+      }
+    },
+    "Status": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Status"
+          }
+        }
+      }
+    },
+    "Stofi": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stofi"
+          }
+        }
+      }
+    },
+    "Stofi keeps running when you close its window, so the menu bar item stays available. Quit it with ⌘Q.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stofi läuft weiter, wenn du das Fenster schließt, damit die Menüleiste verfügbar bleibt. Beenden mit ⌘Q."
+          }
+        }
+      }
+    },
+    "Stofi measures how much space every folder really occupies on disk. The scan only reads.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stofi misst, wie viel Platz jeder Ordner tatsächlich belegt. Die Analyse liest nur."
+          }
+        }
+      }
+    },
+    "Stofi: %@ available, %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stofi: %1$@ verfügbar, %2$@"
+          }
+        }
+      }
+    },
+    "Stop": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stoppen"
+          }
+        }
+      }
+    },
+    "Stop Scan": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyse stoppen"
+          }
+        }
+      }
+    },
+    "Stop the scan": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyse stoppen"
+          }
+        }
+      }
+    },
+    "Storage Map": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speicherkarte"
+          }
+        }
+      }
+    },
+    "Storage map of %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speicherkarte von %@"
+          }
+        }
+      }
+    },
+    "Suggested command: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorgeschlagener Befehl: %@"
+          }
+        }
+      }
+    },
+    "Suggested: empty the Trash (permanent, asks twice)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorschlag: Papierkorb leeren (endgültig, mit doppelter Bestätigung)"
+          }
+        }
+      }
+    },
+    "Suggested: move to the Trash (restorable)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vorschlag: in den Papierkorb legen (wiederherstellbar)"
+          }
+        }
+      }
+    },
+    "System": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System"
+          }
+        }
+      }
+    },
+    "System and Apps": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "System und Apps"
+          }
+        }
+      }
+    },
+    "The disk image holding all Docker images, containers and volumes. Only remove data with Docker's own tools; volumes may contain databases or other work.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das Disk-Image mit allen Docker-Images, -Containern und -Volumes. Entferne Daten nur mit Dockers eigenen Werkzeugen; Volumes können Datenbanken oder andere Arbeit enthalten."
+          }
+        }
+      }
+    },
+    "The list appears as soon as the scan has finished.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Liste erscheint, sobald die Analyse fertig ist."
+          }
+        }
+      }
+    },
+    "The map appears as soon as the scan has finished.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Karte erscheint, sobald die Analyse fertig ist."
+          }
+        }
+      }
+    },
+    "The menu bar only reads the disk's capacity, never scans, and updates when disks are connected or ejected. When it is off, nothing runs for it.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Menüleiste liest nur die Kapazität des Volumes, analysiert nie und aktualisiert sich beim Anschließen oder Auswerfen von Volumes. Ist sie aus, läuft dafür nichts."
+          }
+        }
+      }
+    },
+    "The path is not valid.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Pfad ist ungültig."
+          }
+        }
+      }
+    },
+    "These items will be moved to the Trash. You can put them back until the Trash is emptied; only then is the space freed.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diese Einträge werden in den Papierkorb gelegt. Bis zum Leeren kannst du sie zurücklegen; erst dann wird der Platz frei."
+          }
+        }
+      }
+    },
+    "These items will be removed permanently and cannot be restored.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diese Einträge werden endgültig entfernt und lassen sich nicht wiederherstellen."
+          }
+        }
+      }
+    },
+    "This command is not on Stofi's list of allowed clean-up commands.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dieser Befehl steht nicht auf Stofis Liste erlaubter Aufräumbefehle."
+          }
+        }
+      }
+    },
+    "Thresholds": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schwellenwerte"
+          }
+        }
+      }
+    },
+    "Time": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uhrzeit"
+          }
+        }
+      }
+    },
+    "Time Machine backup data.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time-Machine-Backupdaten."
+          }
+        }
+      }
+    },
+    "Time Machine keeps hourly snapshots on the startup disk while the backup disk is away. macOS removes them automatically when space is needed, so they count as available space. Stofi only shows them.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time Machine legt stündliche Snapshots auf dem Startvolume an, solange das Backup-Volume nicht verbunden ist. macOS entfernt sie automatisch, wenn Platz benötigt wird; sie zählen daher als verfügbarer Platz. Stofi zeigt sie nur an."
+          }
+        }
+      }
+    },
+    "Trash": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Papierkorb"
+          }
+        }
+      }
+    },
+    "Try Again": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erneut versuchen"
+          }
+        }
+      }
+    },
+    "Unavailable Simulators": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht verfügbare Simulatoren"
+          }
+        }
+      }
+    },
+    "Unknown": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unbekannt"
+          }
+        }
+      }
+    },
+    "Unused space": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ungenutzter Platz"
+          }
+        }
+      }
+    },
+    "Up one level": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eine Ebene nach oben"
+          }
+        }
+      }
+    },
+    "Up one level (⌘↑ or Esc)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eine Ebene nach oben (⌘↑ oder Esc)"
+          }
+        }
+      }
+    },
+    "Update every": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktualisieren alle"
+          }
+        }
+      }
+    },
+    "Use caution": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mit Vorsicht"
+          }
+        }
+      }
+    },
+    "Used": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Belegt"
+          }
+        }
+      }
+    },
+    "Used by the next analysis.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gilt ab der nächsten Analyse."
+          }
+        }
+      }
+    },
+    "Used share": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Belegter Anteil"
+          }
+        }
+      }
+    },
+    "User Data": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Benutzerdaten"
+          }
+        }
+      }
+    },
+    "Video, Photo and Audio": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Video, Foto und Audio"
+          }
+        }
+      }
+    },
+    "Weekday": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wochentag"
+          }
+        }
+      }
+    },
+    "Weekly": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wöchentlich"
+          }
+        }
+      }
+    },
+    "Weekly on %@ at %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wöchentlich am %1$@ um %2$@"
+          }
+        }
+      }
+    },
+    "What do you use your Mac for?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wofür nutzt du deinen Mac?"
+          }
+        }
+      }
+    },
+    "What is this?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was ist das?"
+          }
+        }
+      }
+    },
+    "When": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wann"
+          }
+        }
+      }
+    },
+    "When space is low": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bei knappem Speicher"
+          }
+        }
+      }
+    },
+    "Will be processed": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wird verarbeitet"
+          }
+        }
+      }
+    },
+    "Without a scan, only known locations are measured. Scan the startup disk to also find old node_modules folders, large media and duplicates.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohne Analyse werden nur bekannte Orte gemessen. Analysiere das Startvolume, um auch alte node_modules-Ordner, große Mediendateien und Duplikate zu finden."
+          }
+        }
+      }
+    },
+    "Without it, macOS hides some folders (for example Mail, Safari and other apps' data) from Stofi, so their size cannot be measured. Stofi only reads; it never changes files without asking.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohne ihn verbirgt macOS einige Ordner vor Stofi (z. B. Mail, Safari und Daten anderer Apps), sodass ihre Größe nicht gemessen werden kann. Stofi liest nur und ändert nie Dateien, ohne zu fragen."
+          }
+        }
+      }
+    },
+    "Xcode Archives": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xcode-Archive"
+          }
+        }
+      }
+    },
+    "Xcode DerivedData": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xcode-DerivedData"
+          }
+        }
+      }
+    },
+    "Xcode Device Support": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Xcode-Gerätesupport"
+          }
+        }
+      }
+    },
+    "Yarn Cache": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yarn-Cache"
+          }
+        }
+      }
+    },
+    "Your data": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deine Daten"
+          }
+        }
+      }
+    },
+    "Your keychains with passwords.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deine Schlüsselbunde mit Passwörtern."
+          }
+        }
+      }
+    },
+    "about %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ca. %@"
+          }
+        }
+      }
+    },
+    "and %@ more": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "und %@ weitere"
+          }
+        }
+      }
+    },
+    "available": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "verfügbar"
+          }
+        }
+      }
+    },
+    "e.g. Weekly developer clean-up": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "z. B. Wöchentliche Entwickler-Bereinigung"
+          }
+        }
+      }
+    },
+    "iCloud Drive or cloud storage; removing it would delete it everywhere.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud Drive oder Cloud-Speicher; Entfernen würde es überall löschen."
+          }
+        }
+      }
+    },
+    "iOS, watchOS, tvOS or visionOS versions for the Simulator. Xcode can download them again (several GB each). Removal uses Xcode's own command.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS-, watchOS-, tvOS- oder visionOS-Versionen für den Simulator. Xcode kann sie erneut laden (jeweils mehrere GB). Entfernt wird mit Xcodes eigenem Befehl."
+          }
+        }
+      }
+    },
+    "iPhone and iPad Backups": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone- und iPad-Backups"
+          }
+        }
+      }
+    },
+    "macOS asks for approval in System Settings → General → Login Items.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS fragt in Systemeinstellungen → Allgemein → Anmeldeobjekte nach deiner Zustimmung."
+          }
+        }
+      }
+    },
+    "macOS currently estimates %@ as removable on demand; snapshots are part of this. Their individual size is not reported.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS schätzt derzeit %@ als bei Bedarf entfernbar; Snapshots sind ein Teil davon. Ihre einzelne Größe wird nicht gemeldet."
+          }
+        }
+      }
+    },
+    "macOS frees this on demand: caches, local snapshots, optimised iCloud files": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS gibt das bei Bedarf frei: Caches, lokale Snapshots, optimierte iCloud-Dateien"
+          }
+        }
+      }
+    },
+    "node_modules in Inactive Projects": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "node_modules in inaktiven Projekten"
+          }
+        }
+      }
+    },
+    "npm Cache": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "npm-Cache"
+          }
+        }
+      }
+    },
+    "older than %lld days": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "älter als %lld Tage"
+          }
+        }
+      }
+    },
+    "pip Cache": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pip-Cache"
+          }
+        }
+      }
+    },
+    "pnpm Store": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pnpm-Store"
+          }
+        }
+      }
+    },
+    "when space is critical": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "bei kritischem Speicher"
+          }
+        }
+      }
+    },
+    "when space is low": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "bei knappem Speicher"
+          }
+        }
+      }
+    },
+    "–": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "–"
+          }
+        }
+      }
+    },
+    "“%@” could not be read: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„%1$@“ konnte nicht gelesen werden: %2$@"
+          }
+        }
+      }
+    },
+    "“Not captured” is space the disk reports as used that the scan could not attribute: folders without access, local snapshots and the system's own volumes (e.g. virtual memory).": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Nicht erfasst“ ist Platz, den das Volume als belegt meldet, den die Analyse aber nicht zuordnen konnte: Ordner ohne Zugriff, lokale Snapshots und die eigenen Volumes des Systems (z. B. virtueller Speicher)."
+          }
+        }
+      }
+    },
+    "…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "…"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

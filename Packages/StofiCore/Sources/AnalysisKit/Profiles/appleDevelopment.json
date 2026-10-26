@@ -1,0 +1,120 @@
+{
+  "id": "appleDevelopment",
+  "symbol": "hammer",
+  "title": {
+    "en": "Apple Development",
+    "de": "Apple-Entwicklung"
+  },
+  "summary": {
+    "en": "Xcode, simulators, Swift packages and CocoaPods.",
+    "de": "Xcode, Simulatoren, Swift-Pakete und CocoaPods."
+  },
+  "builtIns": [
+    "xcodeDerivedData",
+    "xcodeArchives",
+    "xcodeDeviceSupport",
+    "simulatorRuntimes",
+    "simulatorUnavailableDevices",
+    "cocoaPodsCache"
+  ],
+  "locations": [
+    {
+      "id": "xcodePreviews",
+      "group": "developer",
+      "symbol": "rectangle.on.rectangle",
+      "title": {
+        "en": "SwiftUI Preview Simulators",
+        "de": "SwiftUI-Vorschau-Simulatoren"
+      },
+      "explanation": {
+        "en": "Simulator devices Xcode creates for SwiftUI previews. Xcode recreates them on the next preview. Removal uses Xcode's own command.",
+        "de": "Simulator-Geräte, die Xcode für SwiftUI-Vorschauen anlegt. Xcode erzeugt sie bei der nächsten Vorschau neu. Entfernt wird mit Xcodes eigenem Befehl."
+      },
+      "paths": [
+        "~/Library/Developer/Xcode/UserData/Previews"
+      ],
+      "mode": "whole",
+      "risk": "safe",
+      "regeneration": "automatic",
+      "action": {
+        "type": "command",
+        "executables": [
+          "/usr/bin/xcrun"
+        ],
+        "arguments": [
+          "simctl",
+          "--set",
+          "previews",
+          "delete",
+          "all"
+        ]
+      }
+    },
+    {
+      "id": "simulatorDevices",
+      "group": "developer",
+      "symbol": "iphone",
+      "title": {
+        "en": "Simulator Devices (all)",
+        "de": "Simulator-Geräte (alle)"
+      },
+      "explanation": {
+        "en": "Data of all simulator devices, including installed test apps. Remove single devices in Xcode → Window → Devices and Simulators.",
+        "de": "Daten aller Simulator-Geräte samt installierter Test-Apps. Einzelne Geräte entfernst du in Xcode → Window → Devices and Simulators."
+      },
+      "paths": [
+        "~/Library/Developer/CoreSimulator/Devices"
+      ],
+      "mode": "whole",
+      "risk": "caution",
+      "regeneration": "rebuild",
+      "action": {
+        "type": "info"
+      }
+    },
+    {
+      "id": "swiftPMCache",
+      "group": "developer",
+      "symbol": "shippingbox",
+      "title": {
+        "en": "Swift Package Manager Cache",
+        "de": "Swift-Package-Manager-Cache"
+      },
+      "explanation": {
+        "en": "Downloaded Swift packages shared by all projects. They are downloaded again when a project resolves its packages.",
+        "de": "Heruntergeladene Swift-Pakete aller Projekte. Sie werden erneut geladen, wenn ein Projekt seine Pakete auflöst."
+      },
+      "paths": [
+        "~/Library/Caches/org.swift.swiftpm"
+      ],
+      "mode": "whole",
+      "risk": "safe",
+      "regeneration": "download",
+      "action": {
+        "type": "trash"
+      }
+    },
+    {
+      "id": "carthageCache",
+      "group": "developer",
+      "symbol": "shippingbox",
+      "title": {
+        "en": "Carthage Cache",
+        "de": "Carthage-Cache"
+      },
+      "explanation": {
+        "en": "Downloaded dependencies of the Carthage package manager.",
+        "de": "Heruntergeladene Abhängigkeiten des Paketmanagers Carthage."
+      },
+      "paths": [
+        "~/Library/Caches/org.carthage.CarthageKit"
+      ],
+      "mode": "whole",
+      "risk": "safe",
+      "regeneration": "download",
+      "action": {
+        "type": "trash"
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "id": "videoPhoto",
+  "symbol": "film",
+  "title": {
+    "en": "Video & Photo",
+    "de": "Video & Foto"
+  },
+  "summary": {
+    "en": "Final Cut Pro, Adobe Premiere and After Effects, Lightroom, Photos and large media files.",
+    "de": "Final Cut Pro, Adobe Premiere und After Effects, Lightroom, Fotos und große Mediendateien."
+  },
+  "builtIns": [
+    "largeMedia"
+  ],
+  "locations": [
+    {
+      "id": "adobeMediaCache",
+      "group": "creative",
+      "symbol": "film.stack",
+      "title": {
+        "en": "Adobe Media Cache",
+        "de": "Adobe-Media-Cache"
+      },
+      "explanation": {
+        "en": "Preview and conformed audio files of Premiere Pro and After Effects. Quit the apps first; they rebuild the cache when needed. Premiere can also clean it under Settings → Media Cache.",
+        "de": "Vorschau- und konvertierte Audiodateien von Premiere Pro und After Effects. Beende die Apps vorher; sie bauen den Cache bei Bedarf neu auf. Premiere kann ihn auch unter Einstellungen → Medien-Cache bereinigen."
+      },
+      "paths": [
+        "~/Library/Application Support/Adobe/Common/Media Cache Files",
+        "~/Library/Application Support/Adobe/Common/Media Cache"
+      ],
+      "mode": "whole",
+      "risk": "safe",
+      "regeneration": "automatic",
+      "action": {
+        "type": "trash"
+      }
+    },
+    {
+      "id": "adobeCaches",
+      "group": "creative",
+      "symbol": "paintbrush",
+      "title": {
+        "en": "Adobe App Caches",
+        "de": "Adobe-App-Caches"
+      },
+      "explanation": {
+        "en": "Caches of Adobe apps. They are rebuilt automatically.",
+        "de": "Caches von Adobe-Apps. Sie werden automatisch neu erzeugt."
+      },
+      "paths": [
+        "~/Library/Caches/Adobe"
+      ],
+      "mode": "children",
+      "risk": "safe",
+      "regeneration": "automatic",
+      "action": {
+        "type": "trash"
+      }
+    },
+    {
+      "id": "finalCutRenderFiles",
+      "group": "creative",
+      "symbol": "film",
+      "title": {
+        "en": "Final Cut Pro Render Files",
+        "de": "Final-Cut-Pro-Renderdateien"
+      },
+      "explanation": {
+        "en": "Render files inside Final Cut Pro libraries. Remove them in Final Cut Pro with File → Delete Generated Library Files; Final Cut renders them again when needed. Do not delete files inside libraries in the Finder.",
+        "de": "Renderdateien in Final-Cut-Pro-Mediatheken. Entferne sie in Final Cut Pro über Ablage → Generierte Mediatheksdateien löschen; Final Cut rendert sie bei Bedarf neu. Lösche keine Dateien in Mediatheken im Finder."
+      },
+      "paths": [
+        "~/Movies"
+      ],
+      "mode": "search",
+      "risk": "safe",
+      "regeneration": "rebuild",
+      "action": {
+        "type": "info"
+      },
+      "match": "Render Files",
+      "maxDepth": 4
+    },
+    {
+      "id": "lightroomPreviews",
+      "group": "creative",
+      "symbol": "photo",
+      "title": {
+        "en": "Lightroom Classic Previews",
+        "de": "Lightroom-Classic-Vorschauen"
+      },
+      "explanation": {
+        "en": "Preview caches of Lightroom Classic catalogs. Lightroom rebuilds them, which takes time when browsing. Quit Lightroom first.",
+        "de": "Vorschau-Caches von Lightroom-Classic-Katalogen. Lightroom baut sie neu auf, was beim Durchsehen Zeit kostet. Beende Lightroom vorher."
+      },
+      "paths": [
+        "~/Pictures"
+      ],
+      "mode": "search",
+      "risk": "caution",
+      "regeneration": "rebuild",
+      "action": {
+        "type": "trash"
+      },
+      "match": "*.lrdata",
+      "maxDepth": 4
+    },
+    {
+      "id": "photosLibrary",
+      "group": "creative",
+      "symbol": "photo.on.rectangle",
+      "title": {
+        "en": "Photos Library",
+        "de": "Fotos-Mediathek"
+      },
+      "explanation": {
+        "en": "Your photo library. Shown for information only. To save space, turn on System Settings → Apple Account → iCloud → Photos → Optimise Mac Storage, or move the library to another disk.",
+        "de": "Deine Foto-Mediathek. Nur zur Information. Um Platz zu sparen, aktiviere Systemeinstellungen → Apple Account → iCloud → Fotos → Mac-Speicher optimieren oder verschiebe die Mediathek auf ein anderes Volume."
+      },
+      "paths": [
+        "~/Pictures/Photos Library.photoslibrary"
+      ],
+      "mode": "whole",
+      "risk": "expert",
+      "regeneration": "none",
+      "action": {
+        "type": "info"
+      }
+    }
+  ]
+}
