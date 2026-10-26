@@ -54,24 +54,40 @@ Stofi follows a few non-negotiable rules:
 4. Every action shows the exact paths and commands first.
 5. Tool commands (e.g. `xcrun simctl`, `brew cleanup`) come from a fixed allowlist, run without a shell, and show their output.
 
-## Requirements
+## Installation
 
-- macOS 26 Tahoe
-- Xcode 26.6+ to build from source
+Stofi requires **macOS 26 Tahoe** or later.
 
-## Build
+### Homebrew (recommended)
 
 ```bash
-git clone <repository-url>
+brew install --cask danielfiller30/tap/storage-fighter
+```
+
+Update with `brew upgrade --cask storage-fighter`, remove with `brew uninstall --cask storage-fighter` (add `--zap` to also remove Stofi's settings and log).
+
+### Manual download
+
+Download `Stofi.zip` from the [latest release](https://github.com/DanielFiller30/Storage-Fighter/releases/latest), unzip it and move **Stofi.app** to your Applications folder.
+
+### First launch
+
+- Stofi is not notarized yet, so macOS blocks the first launch. Open *System Settings → Privacy & Security* and click **Open Anyway**.
+- For complete results, grant Stofi **Full Disk Access** in *System Settings → Privacy & Security → Full Disk Access*. Without it, macOS hides some folders (Mail, Messages, other apps' data) from the analysis.
+
+## Build from source
+
+Requires Xcode 26.6 or later.
+
+```bash
+git clone https://github.com/DanielFiller30/Storage-Fighter.git
 ```
 
 ```bash
-open Stofi/Stofi.xcodeproj
+open Storage-Fighter/Stofi.xcodeproj
 ```
 
 Select your team under *Signing & Capabilities*, then run with ⌘R.
-
-For complete results, grant Stofi **Full Disk Access** in *System Settings → Privacy & Security*. Without it, macOS hides some folders (Mail, Messages, other apps' data) from the analysis.
 
 ## Under the hood
 
